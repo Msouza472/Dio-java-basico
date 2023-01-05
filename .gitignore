@@ -21,3 +21,8 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+tipos-variaveis/.vscode/settings.json
+trilha-java-basico/java-anatomia-classes/README.md
+trilha-java-basico/java-anatomia-classes/src/edu/matheus/primeiraSemana/MinhaClasse.java
+trilha-java-basico/java-anatomia-classes/.vscode/settings.json
+trilha-java-basico/java-anatomia-classes/src/edu/matheus/segundaSemana/BoletimEstudantil.java
