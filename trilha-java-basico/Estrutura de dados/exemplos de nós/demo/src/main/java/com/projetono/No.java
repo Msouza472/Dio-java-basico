@@ -1,24 +1,24 @@
 package com.projetono;
 
-public class No {
+public class No<T> {
 
-    private String conteudo;
-    private No proximonoNo;
-    public No(String conteudo) {
+    private T conteudo;
+    private No<T> proximonoNo;
+    public No(T conteudo) {
         this.proximonoNo= null;
         this.conteudo = conteudo;
     }
 
-    public String getConteudo() {
+    public T getConteudo() {
         return conteudo;
     }
-    public void setConteudo(String conteudo) {
+    public void setConteudo(T conteudo) {
         this.conteudo = conteudo;
     }
-    public No getProximonoNo() {
+    public No<T> getProximonoNo() {
         return proximonoNo;
     }
-    public void setProximonoNo(No proximonoNo) {
+    public void setProximonoNo(No<T> proximonoNo) {
         this.proximonoNo = proximonoNo;
     }
 
